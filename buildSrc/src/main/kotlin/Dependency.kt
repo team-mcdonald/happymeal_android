@@ -1,4 +1,7 @@
 object Dependency {
+    object LocalStorage {
+        const val SHARED_PREFERENCE = "androidx.preference:preference-ktx:${Versions.SHARED_PREFERENCE}"
+    }
 
     object GradlePlugin {
         const val GRADLE_ANDROID = "com.android.tools.build:gradle:${ProjectProperties.GRADLE_ANDROID}"

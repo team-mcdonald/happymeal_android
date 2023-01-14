@@ -10,6 +10,7 @@ object Versions {
     const val FRAGMENT_KTX = "1.3.4"
     const val FRAGMENT_KTX_NEW = "1.5.4"
     const val ROOM = "2.4.3"
+    const val SHARED_PREFERENCE = "1.1.1"
 
     const val GSON = "2.9.0"
     const val COIL = "2.0.0-rc01"

@@ -47,6 +47,8 @@ dependencies {
     implementation(Dependency.Hilt.INJECT)
     kapt(Dependency.Hilt.HILT_ANDROID_COMPILER)
 
+    implementation(Dependency.LocalStorage.SHARED_PREFERENCE)
+
     implementation(Dependency.Retrofit.RETROFIT)
     implementation(Dependency.Retrofit.RETROFIT_CONVERTER_GSON)
 
