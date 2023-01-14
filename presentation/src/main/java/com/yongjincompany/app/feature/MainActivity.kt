@@ -4,9 +4,9 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.yongjincompany.app.R
 import com.yongjincompany.app.databinding.ActivityMainBinding
-import com.yongjincompany.app.feature.article.ArticleFragment
-import com.yongjincompany.app.feature.home.HomeFragment
-import com.yongjincompany.app.feature.question.QuestionFragment
+import com.yongjincompany.app.feature.article.view.ArticleFragment
+import com.yongjincompany.app.feature.home.view.HomeFragment
+import com.yongjincompany.app.feature.question.view.QuestionFragment
 import com.yongjincompany.app.util.BaseActivity
 
 

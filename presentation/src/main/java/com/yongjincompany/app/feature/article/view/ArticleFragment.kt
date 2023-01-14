@@ -1,15 +1,15 @@
-package com.yongjincompany.app.feature.home
+package com.yongjincompany.app.feature.article.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.yongjincompany.app.R
-import com.yongjincompany.app.databinding.FragmentHomeBinding
+import com.yongjincompany.app.databinding.FragmentArticleBinding
 import com.yongjincompany.app.util.BaseFragment
 
-class HomeFragment : BaseFragment<FragmentHomeBinding>(
-    R.layout.fragment_home
+class ArticleFragment : BaseFragment<FragmentArticleBinding>(
+    R.layout.fragment_article
 ) {
     override fun onCreateView(
         inflater: LayoutInflater,

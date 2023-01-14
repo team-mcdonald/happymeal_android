@@ -1,15 +1,15 @@
-package com.yongjincompany.app.feature.article
+package com.yongjincompany.app.feature.question.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.yongjincompany.app.R
-import com.yongjincompany.app.databinding.FragmentArticleBinding
+import com.yongjincompany.app.databinding.FragmentQuestionBinding
 import com.yongjincompany.app.util.BaseFragment
 
-class ArticleFragment : BaseFragment<FragmentArticleBinding>(
-    R.layout.fragment_article
+class QuestionFragment : BaseFragment<FragmentQuestionBinding>(
+    R.layout.fragment_question
 ) {
     override fun onCreateView(
         inflater: LayoutInflater,

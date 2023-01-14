@@ -1,15 +1,15 @@
-package com.yongjincompany.app.feature.question
+package com.yongjincompany.app.feature.home.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.yongjincompany.app.R
-import com.yongjincompany.app.databinding.FragmentQuestionBinding
+import com.yongjincompany.app.databinding.FragmentHomeBinding
 import com.yongjincompany.app.util.BaseFragment
 
-class QuestionFragment : BaseFragment<FragmentQuestionBinding>(
-    R.layout.fragment_question
+class HomeFragment : BaseFragment<FragmentHomeBinding>(
+    R.layout.fragment_home
 ) {
     override fun onCreateView(
         inflater: LayoutInflater,
