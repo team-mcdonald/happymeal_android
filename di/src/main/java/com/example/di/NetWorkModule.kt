@@ -1,5 +1,6 @@
 package com.example.di
 
+import com.yongjincompany.data.remote.api.AuthApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -13,7 +14,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 @InstallIn(SingletonComponent::class)
 object NetWorkModule {
 
-    private const val BASE_URL = "https://api.github.com/"
+    private const val BASE_URL = "http://172.20.65.184:8080/"
 
     @Provides
     fun provideHttpLoggingInterceptor(): HttpLoggingInterceptor =
@@ -37,7 +38,7 @@ object NetWorkModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-    /*@Provides
-    fun provideGitHubProfileApi(retrofit: Retrofit): GitHubProfileApi =
-        retrofit.create(GitHubProfileApi::class.java)*/
+    @Provides
+    fun provideAuthApi(retrofit: Retrofit): AuthApi =
+        retrofit.create(AuthApi::class.java)
 }
