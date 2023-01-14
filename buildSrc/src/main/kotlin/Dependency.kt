@@ -16,6 +16,8 @@ object Dependency {
     }
 
     object Ui {
+        const val READ_MORE_TEXT_VIEW = "kr.co.prnd:readmore-textview:${Versions.READ_MORE_TEXT_VIEW}"
+
         const val SPLASH_SCREEN_API = "androidx.core:core-splashscreen:${Versions.SPLASH_SCREEN_VERSION}"
 
         const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:${Versions.CONSTRAINT_LAYOUT}"

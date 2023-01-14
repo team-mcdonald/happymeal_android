@@ -75,6 +75,7 @@ dependencies {
     implementation(Dependency.Compose.COMPOSE_HILT_NAV)
     implementation(Dependency.Compose.COMPOSE_VIEWBINDING)
     implementation(Dependency.Compose.COMPOSE_UI_UTIL)
+    implementation(Dependency.Ui.READ_MORE_TEXT_VIEW)
 
     implementation(Dependency.Navigation.NAVIGATION_FRAGMENT)
     implementation(Dependency.Navigation.NAVIGATION_UI)
