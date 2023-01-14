@@ -32,7 +32,7 @@ abstract class BaseFragment<B : ViewDataBinding>(
         initView()
     }
 
-    protected fun initView() {}
+    open fun initView() {}
 
     fun showShortToast(msg: String) {
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
