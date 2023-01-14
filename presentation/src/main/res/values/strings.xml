@@ -10,4 +10,6 @@
     <string name="recommend">추천하기</string>
     <string name="comment">댓글</string>
     <string name="inquiry">조회</string>
+    <string name="free">Free</string>
+    <string name="premium">Premium</string>
 </resources>
