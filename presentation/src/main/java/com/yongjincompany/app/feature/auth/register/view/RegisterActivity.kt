@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.yongjincompany.app.R
 import com.yongjincompany.app.databinding.ActivityRegisterBinding
 import com.yongjincompany.app.feature.MainActivity
+import com.yongjincompany.app.feature.auth.login.view.LoginActivity
 import com.yongjincompany.app.util.BaseActivity
 
 class RegisterActivity : BaseActivity<ActivityRegisterBinding>(
@@ -24,7 +25,8 @@ class RegisterActivity : BaseActivity<ActivityRegisterBinding>(
         }
 
         binding.btnContinue.setOnClickListener {
-            val intent = Intent(baseContext, MainActivity::class.java)
+            showShortToast("회원가입이 성공적으로 완료되었습니다")
+            val intent = Intent(baseContext, LoginActivity::class.java)
             startActivity(intent)
         }
     }
