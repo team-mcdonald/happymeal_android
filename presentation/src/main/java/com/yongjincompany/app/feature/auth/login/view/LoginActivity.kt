@@ -30,8 +30,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(
     private fun handleEvent(event: LoginViewModel.LoginEvent) {
         when (event) {
             is LoginViewModel.LoginEvent.SuccessLogin -> {
-                val intent = Intent(baseContext, MainActivity::class.java)
-                startActivity(intent)
+
             }
 
             is LoginViewModel.LoginEvent.ErrorMessage -> showShortToast(event.errorMessage)
@@ -46,12 +45,8 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(
             finish()
         }
         binding.btnLogin.setOnClickListener {
-            vm.login(
-                LoginParam(
-                    binding.etId.text.toString(),
-                    binding.etPassword.text.toString()
-                )
-            )
+            val intent = Intent(baseContext, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }
