@@ -124,6 +124,28 @@
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toTopOf="@+id/tvRecommendCount" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inquiry"
+            android:layout_marginEnd="3dp"
+            android:textColor="#CDCDCD"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvInquiryCount"
+            app:layout_constraintEnd_toStartOf="@+id/tvInquiryCount"
+            app:layout_constraintTop_toTopOf="@+id/tvInquiryCount" />
+
+        <TextView
+            android:id="@+id/tvInquiryCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="306"
+            android:textColor="#CDCDCD"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvRecommendCount"
+            app:layout_constraintEnd_toEndOf="@+id/tvQuestionDetail"
+            app:layout_constraintTop_toTopOf="@+id/tvRecommendCount" />
+
         <ImageView
             android:id="@+id/ivFavorite"
             android:layout_width="20dp"
