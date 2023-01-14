@@ -23,6 +23,10 @@
             android:exported="false" />
 
         <activity
+            android:name=".feature.question.view.PostQuestionActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".feature.MainActivity"
             android:exported="false" />
 
