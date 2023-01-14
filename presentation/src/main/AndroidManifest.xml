@@ -15,11 +15,19 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".feature.home.SelectActivity"
+            android:name=".feature.auth.login.view.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".feature.auth.register.view.RegisterActivity"
             android:exported="false" />
 
         <activity
             android:name=".feature.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".feature.auth.StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
