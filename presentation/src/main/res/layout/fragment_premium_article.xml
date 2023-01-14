@@ -6,13 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="ddsdsds0"/>
-
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPremium"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:listitem="@layout/item_article" />

@@ -29,7 +29,7 @@
             android:layout_height="24dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
-            android:src="@color/dark_black"
+            android:src="@drawable/ic_user"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view" />
 
@@ -63,16 +63,16 @@
         <kr.co.prnd.readmore.ReadMoreTextView
             android:id="@+id/tvQuestionDetail"
             android:layout_width="0dp"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            app:readMoreMaxLine="3"
-            app:readMoreColor="@color/main_color"
             android:fontFamily="@font/noto_sans_kr_regular"
             android:text="금융 기초지식 부족한데, 추천할 만한 책이나 강의가 있을까요? 금융 기초지식 부족한데, 추천할 만한 책이나 강의가 있을까요?"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="@+id/tvQuestion"
             app:layout_constraintStart_toStartOf="@+id/tvQuestion"
-            app:layout_constraintTop_toBottomOf="@+id/tvQuestion" />
+            app:layout_constraintTop_toBottomOf="@+id/tvQuestion"
+            app:readMoreColor="@color/main_color"
+            app:readMoreMaxLine="3" />
 
 
         <TextView
@@ -118,10 +118,10 @@
             android:id="@+id/tvCommentCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
             android:text="6"
             android:textColor="#CDCDCD"
             android:textSize="11sp"
-            android:layout_marginStart="3dp"
             app:layout_constraintBottom_toBottomOf="@+id/tvRecommendCount"
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toTopOf="@+id/tvRecommendCount" />
@@ -129,8 +129,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/inquiry"
             android:layout_marginEnd="3dp"
+            android:text="@string/inquiry"
             android:textColor="#CDCDCD"
             android:textSize="11sp"
             app:layout_constraintBottom_toBottomOf="@+id/tvInquiryCount"
