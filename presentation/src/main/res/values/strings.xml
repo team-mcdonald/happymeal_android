@@ -12,4 +12,7 @@
     <string name="inquiry">조회</string>
     <string name="free">Free</string>
     <string name="premium">Premium</string>
+    <string name="post_question">질문 작성</string>
+    <string name="title">제목</string>
+    <string name="detail">내용</string>
 </resources>
