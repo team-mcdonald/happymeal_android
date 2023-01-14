@@ -1,6 +1,7 @@
 package com.example.di
 
 import com.yongjincompany.data.remote.api.AuthApi
+import com.yongjincompany.data.remote.api.QuestionApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -41,4 +42,8 @@ object NetWorkModule {
     @Provides
     fun provideAuthApi(retrofit: Retrofit): AuthApi =
         retrofit.create(AuthApi::class.java)
+
+    @Provides
+    fun provideQuestionApi(retrofit: Retrofit): QuestionApi =
+        retrofit.create(QuestionApi::class.java)
 }
