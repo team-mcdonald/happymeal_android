@@ -5,7 +5,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="283dp">
+        android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/glMidLine"
@@ -60,11 +60,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/civProfileImage" />
 
-        <TextView
+        <kr.co.prnd.readmore.ReadMoreTextView
             android:id="@+id/tvQuestionDetail"
             android:layout_width="0dp"
             android:layout_height="66dp"
             android:layout_marginTop="12dp"
+            app:readMoreMaxLine="3"
+            app:readMoreColor="@color/main_color"
             android:fontFamily="@font/noto_sans_kr_regular"
             android:text="금융 기초지식 부족한데, 추천할 만한 책이나 강의가 있을까요? 금융 기초지식 부족한데, 추천할 만한 책이나 강의가 있을까요?"
             android:textSize="14sp"
